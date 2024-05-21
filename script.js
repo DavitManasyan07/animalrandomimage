@@ -37,6 +37,7 @@ const fox = document.getElementById("fox");
 const bird = document.getElementById("bird");
 
 let weightElement = dog;
+dog.style.fontWeight = 600;
 
 dog.addEventListener("click", () => {
   callBack = api1Data;
